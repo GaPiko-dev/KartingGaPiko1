@@ -49,7 +49,7 @@ namespace KartGame.KartSystems
         {
             if (Input.GetKeyDown(KeyCode.E))
             {
-                Instantiate(Cube, transform.position, Quaternion.identity);
+                Instantiate(Cube, transform.position - transform.forward * 3, Quaternion.identity);
             }
             
             
