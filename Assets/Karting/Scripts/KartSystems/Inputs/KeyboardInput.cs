@@ -34,6 +34,13 @@ namespace KartGame.KartSystems
             get { return m_HopHeld; }
         }
 
+        public KeyCode touchePourAvancer;
+        public KeyCode touchePourReculer;
+        public KeyCode touchePourTournerGauche;
+        public KeyCode touchePourTournerDroite;
+        public KeyCode touchePourSauter;
+        public KeyCode touchePourBoost;
+
         float m_Acceleration;
         float m_Steering;
         bool m_HopPressed;
@@ -53,21 +60,21 @@ namespace KartGame.KartSystems
             }
             
             
-            if (Input.GetKey (KeyCode.UpArrow))
+            if (Input.GetKey (touchePourAvancer))
                 m_Acceleration = 1f;
-            else if (Input.GetKey (KeyCode.DownArrow))
+            else if (Input.GetKey (touchePourReculer))
                 m_Acceleration = -1f;
             else
                 m_Acceleration = 0f;
 
-            if (Input.GetKey (KeyCode.LeftArrow) && !Input.GetKey (KeyCode.RightArrow))
+            if (Input.GetKey (touchePourTournerGauche) && !Input.GetKey (touchePourTournerDroite))
                 m_Steering = -1f;
-            else if (!Input.GetKey (KeyCode.LeftArrow) && Input.GetKey (KeyCode.RightArrow))
+            else if (!Input.GetKey (touchePourTournerGauche) && Input.GetKey (touchePourTournerDroite))
                 m_Steering = 1f;
             else
                 m_Steering = 0f;
 
-            m_HopHeld = Input.GetKey (KeyCode.Space);
+            m_HopHeld = Input.GetKey (touchePourSauter);
 
             if (m_FixedUpdateHappened)
             {
@@ -78,8 +85,8 @@ namespace KartGame.KartSystems
                 m_FirePressed = false;
             }
 
-            m_HopPressed |= Input.GetKeyDown (KeyCode.Space);
-            m_BoostPressed |= Input.GetKeyDown (KeyCode.RightShift);
+            m_HopPressed |= Input.GetKeyDown (touchePourSauter);
+            m_BoostPressed |= Input.GetKeyDown (touchePourBoost);
             m_FirePressed |= Input.GetKeyDown (KeyCode.RightControl);
         }
 
