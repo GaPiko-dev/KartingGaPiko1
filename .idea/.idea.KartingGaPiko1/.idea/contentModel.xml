@@ -12,7 +12,6 @@
             <e p="AutoLockUILayer.cs" t="Include" />
           </e>
           <e p="Scripts" t="Include">
-            <e p="ApparitionCube.cs" t="Include" />
             <e p="KartSystems" t="Include">
               <e p="Inputs" t="Include">
                 <e p="GamepadInput.cs" t="Include" />

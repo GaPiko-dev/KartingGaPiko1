@@ -43,8 +43,16 @@ namespace KartGame.KartSystems
 
         bool m_FixedUpdateHappened;
 
+        public GameObject Cube;
+        
         void Update ()
         {
+            if (Input.GetKeyDown(KeyCode.E))
+            {
+                Instantiate(Cube, transform.position, Quaternion.identity);
+            }
+            
+            
             if (Input.GetKey (KeyCode.UpArrow))
                 m_Acceleration = 1f;
             else if (Input.GetKey (KeyCode.DownArrow))
