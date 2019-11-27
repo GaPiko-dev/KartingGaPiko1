@@ -1,0 +1,143 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="C:\Users\Gaël COURREGE\.Rider2019.2\system\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\Gaël COURREGE\.Rider2019.2\system\resharper-host\local\Transient\ReSharperHost\v192\SolutionCaches\_KartingGaPiko1.-494692598.00" t="ExcludeRecursive" />
+    <e p="C:\Users\Gaël COURREGE\Documents\Technologie et usages\Unity 3D\GitKraken\KartingGaPiko1" t="IncludeRecursive">
+      <e p="Assembly-CSharp-Editor.csproj" t="IncludeRecursive" />
+      <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
+      <e p="Assets" t="Include">
+        <e p="Karting" t="Include">
+          <e p="Editor" t="Include">
+            <e p="AutoLockUILayer.cs" t="Include" />
+          </e>
+          <e p="Scripts" t="Include">
+            <e p="ApparitionCube.cs" t="Include" />
+            <e p="KartSystems" t="Include">
+              <e p="Inputs" t="Include">
+                <e p="GamepadInput.cs" t="Include" />
+                <e p="IInput.cs" t="Include" />
+                <e p="KeyboardInput.cs" t="Include" />
+              </e>
+              <e p="KartAnimation" t="Include">
+                <e p="KartAnimation.cs" t="Include" />
+              </e>
+              <e p="KartAudio" t="Include">
+                <e p="EngineAudio.cs" t="Include" />
+                <e p="EngineAudio.Stroke.cs" t="Include" />
+              </e>
+              <e p="KartColliders" t="Include">
+                <e p="IKartCollider.cs" t="Include" />
+                <e p="WallCollider.cs" t="Include" />
+              </e>
+              <e p="KartModifiers" t="Include">
+                <e p="AddativeKartModifier.cs" t="Include" />
+                <e p="AddativeKartModifierAsset.cs" t="Include" />
+                <e p="DefaultKartModifier.cs" t="Include" />
+                <e p="IKartModifier.cs" t="Include" />
+                <e p="MultiplicativeKartModifier.cs" t="Include" />
+                <e p="MultiplicativeKartModifierAsset.cs" t="Include" />
+              </e>
+              <e p="KartMovement" t="Include">
+                <e p="Editor" t="Include">
+                  <e p="KartMovementEditor.cs" t="Include" />
+                </e>
+                <e p="GroundInfo.cs" t="Include" />
+                <e p="IControllable.cs" t="Include" />
+                <e p="IKartInfo.cs" t="Include" />
+                <e p="IMovable.cs" t="Include" />
+                <e p="KartMovement.cs" t="Include" />
+                <e p="KartStats.cs" t="Include" />
+              </e>
+            </e>
+            <e p="Timeline" t="Include">
+              <e p="DirectorTrigger.cs" t="Include" />
+            </e>
+            <e p="Track" t="Include">
+              <e p="Checkpoint.cs" t="Include" />
+              <e p="InstantKartRepositioner.cs" t="Include" />
+              <e p="IRacer.cs" t="Include" />
+              <e p="KartRepositioner.cs" t="Include" />
+              <e p="KartRepositionTrigger.cs" t="Include" />
+              <e p="Racer.cs" t="Include" />
+              <e p="TimeDisplay.cs" t="Include" />
+              <e p="TrackManager.cs" t="Include" />
+              <e p="TrackRecord.cs" t="Include" />
+            </e>
+            <e p="UI" t="Include">
+              <e p="MainUIController.cs" t="Include" />
+              <e p="MetaGameController.cs" t="Include" />
+            </e>
+            <e p="Utilities" t="Include">
+              <e p="DictionaryExtensions.cs" t="Include" />
+              <e p="Editor" t="Include">
+                <e p="RequireInterfaceAttributeDrawer.cs" t="Include" />
+              </e>
+              <e p="LayerMaskExtensions.cs" t="Include" />
+              <e p="ListExtensions.cs" t="Include" />
+              <e p="QuaternionExtensions.cs" t="Include" />
+              <e p="RequireInterfaceAttribute.cs" t="Include" />
+            </e>
+          </e>
+          <e p="Tests" t="Include">
+            <e p="Editor" t="Include">
+              <e p="EditorExampleTest.cs" t="Include" />
+            </e>
+            <e p="Runtime" t="Include">
+              <e p="RuntimeExampleTest.cs" t="Include" />
+              <e p="RuntimeTests.asmdef" t="Include" />
+            </e>
+          </e>
+          <e p="TextMesh Pro" t="Include">
+            <e p="Resources" t="Include">
+              <e p="LineBreaking Following Characters.txt" t="Include" />
+              <e p="LineBreaking Leading Characters.txt" t="Include" />
+              <e p="Shaders" t="Include">
+                <e p="TMP_Bitmap-Custom-Atlas.shader" t="Include" />
+                <e p="TMP_Bitmap-Mobile.shader" t="Include" />
+                <e p="TMP_Bitmap.shader" t="Include" />
+                <e p="TMP_SDF Overlay.shader" t="Include" />
+                <e p="TMP_SDF-Mobile Masking.shader" t="Include" />
+                <e p="TMP_SDF-Mobile Overlay.shader" t="Include" />
+                <e p="TMP_SDF-Mobile.shader" t="Include" />
+                <e p="TMP_SDF-Surface-Mobile.shader" t="Include" />
+                <e p="TMP_SDF-Surface.shader" t="Include" />
+                <e p="TMP_SDF.shader" t="Include" />
+                <e p="TMP_Sprite.shader" t="Include" />
+                <e p="TMPro.cginc" t="Include" />
+                <e p="TMPro_Properties.cginc" t="Include" />
+                <e p="TMPro_Surface.cginc" t="Include" />
+              </e>
+            </e>
+          </e>
+        </e>
+        <e p="Mod Assets" t="Include">
+          <e p="ModResources" t="Include">
+            <e p="Scripts" t="Include">
+              <e p="Backend" t="Include">
+                <e p="TemplateEditorDetection.cs" t="Include" />
+              </e>
+              <e p="BallGame" t="Include">
+                <e p="EmitParticlesOnBallBounce.cs" t="Include" />
+              </e>
+              <e p="Kart" t="Include">
+                <e p="EmitParticlesOnKartBounce.cs" t="Include" />
+                <e p="Jiggler.cs" t="Include" />
+                <e p="KartSpeedPad.cs" t="Include" />
+                <e p="SimpleTrigger.cs" t="Include" />
+              </e>
+              <e p="Platformer" t="Include">
+                <e p="EmitParticlesOnLand.cs" t="Include" />
+              </e>
+            </e>
+          </e>
+        </e>
+      </e>
+      <e p="KartingGaPiko1.sln" t="IncludeFlat" />
+      <e p="obj" t="ExcludeRecursive" />
+      <e p="Packages" t="ExcludeRecursive" />
+      <e p="RuntimeTests.csproj" t="IncludeRecursive" />
+      <e p="Temp\bin" t="ExcludeRecursive" />
+    </e>
+  </component>
+</project>
