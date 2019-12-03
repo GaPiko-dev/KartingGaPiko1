@@ -40,6 +40,7 @@ namespace KartGame.KartSystems
         public KeyCode touchePourTournerDroite;
         public KeyCode touchePourSauter;
         public KeyCode touchePourBoost;
+        public KeyCode touchePourCubeArriere;
 
         float m_Acceleration;
         float m_Steering;
@@ -54,7 +55,7 @@ namespace KartGame.KartSystems
         
         void Update ()
         {
-            if (Input.GetKeyDown(KeyCode.E))
+            if (Input.GetKeyDown(touchePourCubeArriere))
             {
                 Instantiate(Cube, transform.position - transform.forward * 3, Quaternion.identity);
             }
